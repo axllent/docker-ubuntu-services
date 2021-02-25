@@ -10,4 +10,4 @@ rm -rf /etc/sv /var/lib/apt/lists/* /tmp/* /var/tmp/* ~/.cache ~/.npm /var/log/*
 
 COPY /root /
 
-CMD ["/run.sh"]
+CMD ["/init.sh"]
